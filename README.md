@@ -2,6 +2,7 @@
 
 # Título do Projeto:
 To-do List
+
 **Status do Projeto**: Em desenvolvimento 🚀  
 
 ## Tecnologias Utilizadas  
@@ -18,8 +19,8 @@ To-do List
 O software tem como objetivo auxiliar seus usuários a criarem uma lista de tarefa eficiente de forma prática, pelo navegador.
 
 ## Funcionalidades do Sistema  
-> Adicionar Tarefa
-> Listar Tarefas
-> Marcar como Concluída
-> Excluir Tarefa
+1. Adicionar Tarefa
+2. Listar Tarefas
+3. Marcar como Concluída
+4. Excluir Tarefa
 
