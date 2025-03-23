@@ -1,33 +1,33 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const inputField = document.getElementById('itemInput'); // Campo de entrada
-    const addButton = document.getElementById('addButton'); // Botão de adicionar
-    const todoList = document.getElementById('todoList'); // Lista onde as tarefas serão adicionadas
+    const inputField = document.getElementById('itemInput'); 
+    const addButton = document.getElementById('addButton'); 
+    const todoList = document.getElementById('todoList'); 
 
-    // Função para adicionar uma tarefa
+    // adicionar uma tarefa
     function addTask(taskContent) {
         // Cria um item de lista
         const li = document.createElement('li');
         
-        // Cria a estrutura de cada tarefa
+        // estrutura de cada tarefa
         const taskText = document.createElement('span');
         taskText.textContent = taskContent;
 
-        // Cria o botão de excluir
+        // botão de excluir
         const deleteButton = document.createElement('button');
         deleteButton.textContent = 'Excluir';
         deleteButton.classList.add('deleteButton');
 
-        // Cria o checkbox para marcar como concluído
+        // checkbox para marcar como concluído
         const completeCheckbox = document.createElement('input');
         completeCheckbox.type = 'checkbox';
         completeCheckbox.classList.add('completeCheckbox');
 
-        // Adiciona os elementos à tarefa
+        // Adc
         li.appendChild(completeCheckbox);
         li.appendChild(taskText);
         li.appendChild(deleteButton);
 
-        // Adiciona a tarefa à lista
+        // Adc
         todoList.appendChild(li);
 
         // Evento para marcar tarefa como concluída
