@@ -1,0 +1,53 @@
+/* Exemplo de estilo básico */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #4CAF50;
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 14px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px;
+    font-size: 14px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+button.deleteButton {
+    background-color: #f44336;
+    margin-left: 10px;
+}
+
+button.deleteButton:hover {
+    background-color: #d32f2f;
+}
+
+input.completeCheckbox {
+    margin-right: 10px;
+}
